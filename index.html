@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI generator image</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>AI Image Generator</title>
+  </head>
+  <body>
+    <section class="image-generator">
+      <div class="content">
+        <h1>AI image Generator Tool JavaScript</h1>
+        <p>
+          Converting Your Text To Image With AI Tool , Powered by Javascriptv
+        </p>
+        <form action="#" class="generate-form">
+          <input
+            type="text"
+            class="prompt-input"
+            placeholder="Describe What you want "
+          />
+          <div class="controls">
+            <select class="img-quantity" name="" id="">
+              <option value="1">1 Image</option>
+              <option value="2">2 Image</option>
+              <option value="3">3 Image</option>
+              <option value="4">4 Image</option>
+            </select>
+            <button type="submit" class="generator-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="image-gallery">
+      <div class="img-card loading">
+        <img src="" alt="image" />
+        <a class="download-btn" href="">
+          <img src="" alt="download image" />
+        </a>
+      </div>
+    </section>
+  </body>
+  <script src="./app.js"></script>
 </html>
