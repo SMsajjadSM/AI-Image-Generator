@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+.image-generator {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url("123.jpg") ;
+  background-size: cover;
+  background-position: center;
+}
+.image-generator::before{
+  content: '';
+  position: absolute;
+  lef: 0;
+  top: 0;
+  width: 100%;
+  background: #121212;
+  opacity: 0.5;
+}
+.image-generator  .content {
+ color: #fff;
+ padding: 0 15px;
+ max-width: 760px;
+ text-align: center;
+ position: relative;
+}
+.image-generator h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.image-generator p{
+  font: 1.35rem;
+  margin-top: 10px;
+}
+.image-generator .generate-form{
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
